@@ -1,5 +1,6 @@
 import math
 import random
+import sys
 
 def pi(shots, value):
     # shots = 10000
@@ -16,7 +17,7 @@ def pi(shots, value):
 
         y=(4.0 * incircle/shots)
         output.append((incircle,shots,y))
-    return(output)
+    print(output)
 
 if __name__== "__main__":
     pi(int(sys.argv[1]), int(sys.argv[2]))
