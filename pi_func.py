@@ -17,7 +17,7 @@ def pi(shots, value):
 
         y=(4.0 * incircle/shots)
         output.append((incircle,shots,y))
-    print(output)
+    return output
 
 if __name__== "__main__":
     pi(int(sys.argv[1]), int(sys.argv[2]))
