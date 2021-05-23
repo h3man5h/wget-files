@@ -6,8 +6,10 @@ param_1= int(sys.argv[1])
 param_2= int(sys.argv[2])
 
 def pi(shots, value):
-    # shots = 10000
-    # value = 20
+    
+    shots= int(sys.argv[1])
+    report= int(sys.argv[2])
+
     output=[]
 
     for i in range(0, value):
