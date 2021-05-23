@@ -2,6 +2,9 @@ import math
 import random
 import sys
 
+param_1= int(sys.argv[1])
+param_2= int(sys.argv[2])
+
 def pi(shots, value):
     # shots = 10000
     # value = 20
@@ -19,5 +22,6 @@ def pi(shots, value):
         output.append((incircle,shots,y))
     return output
 
-if __name__== "__main__":
-    pi(int(sys.argv[1]), int(sys.argv[2]))
+print(pi())
+
+
